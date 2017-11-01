@@ -1,0 +1,20 @@
+div { 
+    display: inline-block;
+    border-color: red;
+    padding: 20px;
+    border-style: double;
+    /* background-color: blue; */
+}
+
+img {
+    width: 360px;
+    height: 360px;
+    padding: 0;
+    border: 0;
+}
+.my-block{
+    display: block;
+    background-color: white;
+    padding: 10px;
+    border: 0;
+}
