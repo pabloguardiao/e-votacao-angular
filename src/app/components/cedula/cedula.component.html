@@ -1,3 +1,6 @@
-<div>
-  <comp-candidato *ngFor="let cand of candidatos" [candidato]="cand"></comp-candidato>
+<div> 
+  <h3> Cargo: {{ cargo?.nome }} </h3>
+  <comp-candidato *ngFor="let cand of cargo?.candidatos" [candidato]="cand" 
+    (selecao)="selecionarCandidato($event.selecionado)"></comp-candidato>
+  <!-- <comp-confirmacao></comp-confirmacao> -->
 </div>

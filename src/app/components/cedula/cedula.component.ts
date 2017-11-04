@@ -1,5 +1,9 @@
-import { Candidato } from './../../model/candidato';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+import { Cargo } from './../../model/cargo';
+import { Candidato } from './../../model/candidato';
+import { AppService } from './../../services/app.service';
 
 @Component({
   selector: 'comp-cedula',
@@ -8,13 +12,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CedulaComponent implements OnInit {
 
-  public candidatos: Candidato[] = [];
+  public cargo: Cargo;
+  // public confirmacao: boolean = false;
 
-  constructor() { }
+  constructor(private router: Router
+    , private appService: AppService
+  ) { }
 
   ngOnInit() {
-    this.candidatos.push(new Candidato('Pablo', 'https://img.ibxk.com.br/2015/06/09/09122000492412.jpg'));
-    this.candidatos.push(new Candidato('JP', 'https://vignette.wikia.nocookie.net/thor/images/d/da/Captain-america-wallpaper.jpg/revision/latest/scale-to-width-down/640?cb=20130718004302'));
+    this.cargo = this.appService.getCargo();
   }
 
+  selecionarCandidato(event: Candidato) {
+    // this.confirmacao = true;
+    console.log(event.nome);
+    this.router.navigate(['/confirma', event]);
+  }
 }

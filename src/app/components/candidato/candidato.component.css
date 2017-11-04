@@ -1,20 +1,25 @@
-div { 
+.candidato { 
     display: inline-block;
-    border-color: red;
-    padding: 20px;
-    border-style: double;
+    border-color: rgb(4, 0, 255);
+    padding: 3px;
+    border-style: solid;
+    margin: 3px;
     /* background-color: blue; */
 }
 
+.candidato:hover { 
+    background-color: rgba(104, 211, 148, 0.5);
+}
+
 img {
-    width: 360px;
-    height: 360px;
+    width: 240px;
+    height: 320px;
     padding: 0;
     border: 0;
 }
-.my-block{
+/* .my-block{
     display: block;
     background-color: white;
     padding: 10px;
     border: 0;
-}
+} */
