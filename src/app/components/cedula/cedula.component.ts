@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, Output, Input } from '@angular/core';
+// import { Router } from '@angular/router';
 
 import { Cargo } from './../../model/cargo';
 import { Candidato } from './../../model/candidato';
@@ -13,19 +13,35 @@ import { AppService } from './../../services/app.service';
 export class CedulaComponent implements OnInit {
 
   public cargo: Cargo;
-  // public confirmacao: boolean = false;
+  
+  @Input()
+  public selecionado: Candidato;
 
-  constructor(private router: Router
-    , private appService: AppService
+  constructor(
+    // private router: Router, 
+    private appService: AppService
   ) { }
 
   ngOnInit() {
+    this.selecionado = null;
     this.cargo = this.appService.getCargo();
   }
 
-  selecionarCandidato(event: Candidato) {
+  selecionarCandidato(selecionado: Candidato) {
     // this.confirmacao = true;
-    console.log(event.nome);
-    this.router.navigate(['/confirma', event]);
+    this.selecionado = selecionado;
+    // console.log(selecionado.nome);
+    // this.router.navigate(['/confirma', event]);
+  }
+
+  confirmarCandidato(selecionado: Candidato) {
+    this.appService.registrarVoto(selecionado, this.cargo);    
+    this.selecionado = null;
+    this.cargo = this.appService.getCargo();
+  }
+
+  cancelarConfirmacao() {
+    this.selecionado = null;
+    this.cargo = this.appService.getCargo();
   }
 }

@@ -1,6 +1,15 @@
-<div> 
+<div class=""> 
   <h3> Cargo: {{ cargo?.nome }} </h3>
-  <comp-candidato *ngFor="let cand of cargo?.candidatos" [candidato]="cand" 
-    (selecao)="selecionarCandidato($event.selecionado)"></comp-candidato>
-  <!-- <comp-confirmacao></comp-confirmacao> -->
+  <div class="row">
+    <div class="col-md-12">
+      <comp-candidato *ngFor="let cand of cargo?.candidatos" [candidato]="cand" 
+        (selecao)="selecionarCandidato($event.selecionado)"></comp-candidato>
+    </div>
+    <div class="col-md-10">
+      <button type="button" class="btn btn-default btn-lg">Branco ou Nulo</button>
+    </div>
+  </div>
+    <comp-confirmacao [candidato]="selecionado" *ngIf="selecionado == null" 
+    (confirma)="confirmarCandidato($event)" (cancela)="cancelarConfirmacao()">
+  </comp-confirmacao>
 </div>

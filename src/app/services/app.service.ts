@@ -3,32 +3,51 @@ import { Observable } from 'rxjs/Observable';
 
 import { Cargo } from './../model/cargo';
 import { Candidato } from '../model/candidato';
+import { Cedula } from './../model/cedula';
 
 @Injectable()
 export class AppService {
 
-  private cargo: Cargo;
+  // private cargo: Cargo;
   private contador: number = 0;
-  private cargos: Cargo[] = [];
+  private cedula: Cedula;
 
   constructor() { 
-    this.cargos.push(new Cargo('Lider de Jovens', [new Candidato('Homem de Ferro', '/assets/homem_de_ferro.jpg'), new Candidato('Captão América', '/assets/captao_america.jpg'), new Candidato('Thor', '/assets/thor.jpg')]));
-    this.cargos.push(new Cargo('Lider de Adultos', [new Candidato('Hulk', '/assets/hulk.jpg'), new Candidato('Wolverine', '/assets/woverine.jpg'), new Candidato('Super Homem', '/assets/superman1.jpg')]));
-    this.cargos.push(new Cargo('Professor de EBD', [new Candidato('Flash', '/assets/flash.jpg'), new Candidato('Arqueiro Verde', '/assets/arqueiro_verde.jpg'), new Candidato('Supergirl', '/assets/supergirl.jpg')]));
-    this.cargos.push(new Cargo('Diácono', [new Candidato('Homem Aranha', '/assets/homem_aranha.jpg')]));
-    // this.cargo = new Cargo('Lider de Jovens', [new Candidato('Homem de Ferro', '/assets/homem_de_ferro.jpg'), new Candidato('Captão América', '/assets/captao_america.jpg'), new Candidato('Thor', '/assets/thor.jpg')]);
+    this.cedula = new Cedula('ID', 'DESCRICAO', [
+      new Cargo('Lider de Jovens', [new Candidato('Homem de Ferro', '/assets/homem_de_ferro.jpg'), new Candidato('Captão América', '/assets/captao_america.jpg'), new Candidato('Thor', '/assets/thor.jpg')]),
+      new Cargo('Lider de Adultos', [new Candidato('Hulk', '/assets/hulk.jpg'), new Candidato('Wolverine', '/assets/woverine.jpg'), new Candidato('Super Homem', '/assets/superman1.jpg')]),
+      new Cargo('Professor de EBD', [new Candidato('Flash', '/assets/flash.jpg'), new Candidato('Arqueiro Verde', '/assets/arqueiro_verde.jpg'), new Candidato('Supergirl', '/assets/supergirl.jpg')]),
+      new Cargo('Diácono', [new Candidato('Homem Aranha', '/assets/homem_aranha.jpg')], 'C')
+    ]);
   }
 
   getCargo() {
-    return this.cargos[this.contador];
+    console.log("CONTADOR: " + this.contador);
+    return this.cedula.cargos[this.contador];
   }
 
-  postVoto(candidato: Candidato) {
-    if (this.contador < this.cargos.length-1) {
+  registrarVoto(candidato: Candidato, cargo: Cargo) {
+    if (this.contador < this.cedula.cargos.length-1) {
       this.contador++;
     } else {
       this.contador = 0
     }
-    console.log('TOTAL: ' + this.cargos.length + ' ATUAL: ' + this.contador);
+    console.log('TOTAL: ' + this.cedula.cargos.length + ' ATUAL: ' + this.contador);
+    this.contabilizarVoto(candidato, cargo);
+    console.log(this.cedula);
+  }
+
+  contabilizarVoto(candidato: Candidato, cargo: Cargo) {
+    this.cedula.cargos.forEach(c => {
+      // console.log(cargo);
+      if (c.nome === cargo.nome) {
+        cargo.candidatos.forEach( cand => {
+          // console.log(candidato);
+          if (cand.nome === candidato.nome) {
+            cand.qtdVotos++;
+          }
+        });
+      }
+    });
   }
 }
