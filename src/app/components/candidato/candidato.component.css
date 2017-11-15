@@ -1,19 +1,25 @@
-.candidato { 
+.caixa-candidato { 
     display: inline-block;
+    /* position: relative; */
     border-color: rgb(4, 0, 255);
     padding: 3px;
     border-style: solid;
     margin: 3px;
+    max-width: 240px;
+    /* max-height: 320px; */
     /* background-color: blue; */
 }
 
-.candidato:hover { 
+.caixa-candidato:hover { 
     background-color: rgba(104, 211, 148, 0.5);
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    /* position: absolute; */
+    max-width: 240px;
+    /* width: 200px; */
+    /* height: 300px; */
+    max-height: 280px;
     padding: 0;
     border: 0;
 }

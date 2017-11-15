@@ -4,6 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import { Cargo } from './../model/cargo';
 import { Candidato } from '../model/candidato';
 import { Cedula } from './../model/cedula';
+import { Util } from './../util';
 
 @Injectable()
 export class AppService {
@@ -13,7 +14,7 @@ export class AppService {
   private cedula: Cedula;
 
   constructor() { 
-    this.cedula = new Cedula('ID', 'DESCRICAO', [
+    this.cedula = new Cedula('DESCRICAO', [
       new Cargo('Lider de Jovens', [new Candidato('Homem de Ferro', '/assets/homem_de_ferro.jpg'), new Candidato('Captão América', '/assets/captao_america.jpg'), new Candidato('Thor', '/assets/thor.jpg')]),
       new Cargo('Lider de Adultos', [new Candidato('Hulk', '/assets/hulk.jpg'), new Candidato('Wolverine', '/assets/woverine.jpg'), new Candidato('Super Homem', '/assets/superman1.jpg')]),
       new Cargo('Professor de EBD', [new Candidato('Flash', '/assets/flash.jpg'), new Candidato('Arqueiro Verde', '/assets/arqueiro_verde.jpg'), new Candidato('Supergirl', '/assets/supergirl.jpg')]),
