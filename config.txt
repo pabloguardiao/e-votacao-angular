@@ -1,0 +1,572 @@
+cordova-plugin-background-mode@0.7.3 "BackgroundMode" 
+cordova-plugin-ble-central@1.2.4 "BLE" 
+
+cordova plugin add cordova-plugin-background-mode@0.7.3
+cordova plugin add cordova-plugin-ble-central@1.2.4
+
+CHECKSUBSCRIBE
+
+POST
+Content-Type: application/json
+https://des.central.mobilidade.caixa.gov.br/sicpu/ws/subscribe/check/01.00
+{"subscription":"ImV6SW9jeHJyeEE0OkFQQTkxYkh2NEtjWjFCaHBMMUdCZ2xkNEg3VEpKZDRBM0NHYWFVanA2OXBGVkFhNzhjb2JCU0p0cjI1a25tLUMtbnRZakphVDFNckhuUUMzcU9FNzh5U1NwNklTaWNnQW9oWjVhU0kwQ0F5RDhZM05pWmkzeklTTmotSzlscHRUQkVnRHhJdlg2b3JFIg==","channel":"3732c886a5fe6639fc0c88908fcb89da08dd196a"}
+
+
+
+
+"{"platform":"NATIVE_PLATFORM","device":"DEVICE_ANDROID","so":"Android","versaoSo":"5.0.2"}"
+
+
+
+ENDPOINT:
+"https://des.central.mobilidade.caixa.gov.br/sicpu/ws/subscribe/check/01.00"
+
+ENVIO:
+"{"subscription":"ImRUdzFTRGV4bTFjOkFQQTkxYkhpRkE0OUxQQkVWcnRHamp3bXZiUWxqckVjc2tnN0RjR1BTS0JmbDZYNFhsM1ZISDhyRFlxTGd0TTVuS0xJT0dBNEFyUTFlaG1YbGJDMXhyWEthZnF6c3Z0UXJfT2FtdG9PNjBvSlk5MDBLR0JSR3VONnRQNk5JSDcyN0ZxdVFOQ0FueDJVIg==","channel":"3732c886a5fe6639fc0c88908fcb89da08dd196a"}"
+
+RETORNO:
+"{"msgsErro":["MSG045 - Sucesso"],"data":[{"subscriptionId":"412457","dtSubscription":"19/11/2019 09:47:42"}],"temErro":false}"
+
+LOG:
+URL SUBSCRIBE: https://des.central.mobilidade.caixa.gov.br/sicpu/ws/subscribe/create/01.00
+
+
+"dTw1SDexm1c:APA91bHiFA49LPBEVrtGjjwmvbQljrEcskg7DcGPSKBfl6X4Xl3VHH8rDYqLgtM5nKLIOGA4ArQ1ehmXlbC1xrXKafqzsvtQr_OamtoO60oJY900KGBRGuN6tP6NIH727FquQNCAnx2U"
+
+
+ and fp.programaSocial = 694 
+
+<property name="filestore.path.relatorio.servidor" value="C:/caixa/desenv/sibec/filestore/download"/>
+<property name="br.gov.caixa.psc.connector.util.Config" value=""/>
+<property name="sibec.sisgr.local" value="http://localhost:8080/"/>
+<property name="filestore.ambiente.relatorio" value="D"/>
+
+		if (window.cordova) {
+			window.plugins.socialsharing.share(null, null, 'https://www.google.nl/images/srpr/logo4w.png', null);
+		}
+
+SICPU - Acesso
+admin@email.com.br
+cedesrj040
+
+MACBOOK
+sucti10
+
+
+Blocker - (Java) Import Control
+Blocker - (Java) Track lack of copyright and license headers
+Critical - (Java) String literals should not be duplicated 
+Major - (Java) Line Length
+
+
+http://10.223.4.196:8080/autorh-web/rest/cabecalho-usuario/v2/076808
+http://10.223.4.196:8080/autorh-web/rest/cabecalho-usuario/v2/112460
+
+https://des.central.mobilidade.caixa.gov.br/sigpm/ws/avisoferias/filtrar
+
+aviso-de-ferias/unidade/
+
+- Matrícula(1)
+- Nome(3)
+- Data do Inicio do Período Aquisitivo (9)
+- Data do Fim do Período Aquisitivo (10)
+- Data do Início das Férias (11)
+
+
+http://10.223.4.196:8080/autorh-web/rest/aviso-de-ferias/unidade/7265?ano=2019?campo=1?ordem=1
+http://10.223.4.196:8080/autorh-web/rest/aviso-de-ferias/unidade/7265?ano=2019&campo=10&ordem=2
+
+
+7265
+5721
+
+
+
+# Demanda dos arquivos:
+Limitar tamanho dos arquivos anexados para os serviços: Cad. Dependentes, Licença Maternidade/Paternidade e Atualização de dados cadastrais
+Referencia: Atestado
+
+\\cr7265et884\Público\SIBEC_PROG
+
+Máquina do Gustavo
+\\CR7265ET978\pub
+
+# Programas legais
+\\Cr7265et143\matrix\@@_#_PRO + GRAMAS_#_@@
+
+
+Apps gerencia de config.
+\\10.192.224.218\sharepoint_cc\shp_cc\GUIAS_QUALIDADE\Gerencia_Configuracao\GIT
+
+Maquina Ildefonso
+\\CR7265NB267
+
+App's
+\\CR7265ET984\App's\
+
+VARIÁVEIS DE AMBIENTE
+###### VARIÁVEIS DE USUÁRIO ######
+Alterar (ou alterar se já existir) as variaveis abaixo:
+
+SET JAVA_HOME=C:\IONIC\jdk
+SET ANDROID_HOME=C:\IONIC\android-sdk
+SET ANT_HOME=C:\IONIC\apache-ant-1.9.6
+PATH=%JAVA_HOME%\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANT_HOME%\bin;C:\IONIC\gradle-4.6-bin\gradle-4.6\bin;C:\caixa\desenv\tools\PortableGit-2.23\bin;%PATH%
+
+###### VARIÁVEIS DE SISTEMA ######
+Acrescentar a variável abaixo:
+
+_JAVA_OPTIONS = -Xmx256m
+
+
+WIFI
+02744360783
+Gustao22$
+
+c102408
+47163631120
+Senha:210901
+
+NIS? 10884783844
+c126039
+13086059788
+Senha: 741963
+
+C891968
+46930973068
+Senha: 135790
+
+11867322889
+
+Felipe
+C104849
+
+06395715658 
+146923 
+
+C099938
+C041047
+
+Franklin
+C
+
+
+BD DESENV: 
+10.116.92.87
+10.116.93.151
+
+BD LOCAL: 10.139.24.39
+USER: usrsiads
+PASS: Biriguy2026
+
+
+C017914
+
+contracheque e ir
+
+
+
+
+- Expiração do Token no Aviso de Férias
+#Verificar os valores padrão
+#Fazer a alteração e ver se reflete no token
+#Pegar os valores do token da sessão
+#Interceptor 10s
+- Cadastro Dependentes, se não enviar o email, não concluir a operação. (Fazer testes)
+- Códigos de perfis do SSO do Aviso de férias
+- Falha ao carregar Destinos no Cadastro de Modelo de Requerimento Pessoal
+- Requerimento, se não enviar email não deve continuar
+
+SG_OPCAO_DESTINO
+GPMTB088_OPCAO_DESTINO
+
+##### SICSD
+
+app-init.ts
+
+clientId: 'cli-web-ads' //DES
+
+
+Solicitamos criar o ambiente para consulta aos protocolos da funcionalidade Requerimento Pessoal Digital com o nome “Meus Requerimentos/Formulários”.
+Ressaltamos que outros Formulários serão implementados no Sou Caixa em breve, como o de Designação (MO21431), o Termo de Ciência de Adiantamento Salarial – Licença para Tratamento de Saúde superior a 15 dias (MO21501), entre outros.
+Esse ambiente deverá agrupar os protocolos de todos os formulários juntos para visualização pelo empregado (apenas os dele) e para visualização da unidade pelos Agentes de RH e Gestores (todos os formulários que competem à unidade), devendo ter o número do protocolo, o tipo de formulário, a data da solicitação, o nome do empregado solicitante e status das assinaturas. (Algo semelhante ao ambiente do Aviso de Férias Digital).
+
+O formulário de designação já está sendo pensado para podermos solicitar o desenvolvimento a essa CEDESRJ.
+
+Como o formulário de designação deve ser assinado pelo empregado e pelo gestor, deverá haver um ambiente e fluxo para controle das assinaturas das partes e status das assinaturas. 
+
+- Criar tela de associação de funcionalidade com Unidade
+- Criar tela de consulta das funcionalidades (Atestado, Licenças, Dependentes, Atualização Cadastral e Requerimentos)
+- Criar o fluxo de andamento para o tratamento da funcionalidade (Recebido, Aprovado ou Reprovado)
+- Alterar o envio de email, para não enviar os anexos ??? VERIFICAR
+
+
+
+
+Nomes da equipe:
+Gustavo (Ramal 3878)
+SOLUÇÃO PARA USAR CERTIFICADO NO ANALYTICS
+
+=====OPCAO 1======
+
+Instale o certificado do analytics em sua JRE
+
+keytool -keystore C:\desenvolvimento\Compiladores\jdk1.8.0_101\jre\lib\security\cacerts -importcert -alias analytics -file C:\desenvolvimento\DES.ANALYTICS.MOBILIDADE.CAIXA.GOV.BR.crt
+
+[OU]
+
+keytool -importcert -alias analytics -file C:\Compartilhada\simma\certificado\DES.ANALYTICS.MOBILIDADE.CAIXA.GOV.BR.crt
+
+Senha padrão do keytore: changeit
+
+====OPCAO 2======
+
+Caso esteja usando a JDK 1.8 insira a variavel abaixo no servidor
+
+-Djavax.net.ssl.trustStoreType=Windows-ROOT
+
+
+C:\caixa\desenv\sigpm\jdk\bin\keytool -keystore C:\caixa\desenv\sigpm\jdk\jre\lib\security\cacerts -importcert -alias sicpu -file C:\caixa\sicpu.crt
+	 
+	 
+	 
+
+
+
+ZXdvSkltNWhiV1VpT2lKRWNtVmhiWE1nYVc0Z1lTQndZWEpoYkd4bGJDQjNiM0pzWkNJS0NTSmtjbVZoYlhNaU9sc0tDUWw3SW1sa0lqb3hMQ0FpWkdGMFpTSTZJakEwTHpFd0x6SXdNVGtpSUNKa1pYTmpjbWx3ZEdsdmJpSTZJazFsWlhScGJtY2lmU3dLQ1FsN0ltbGtJam95TENBaVpHRjBaU0k2SWpFeEx6RXdMekl3TVRraUxDQWlaR1Z6WTNKcGNIUnBiMjRpT2lKRVlYUmxJbjBzQ2drSmV5SnBaQ0k2TXl3Z0ltUmhkR1VpT2lJd05pOHhNUzh5TURFNUlpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVVHRnlhMmx1WnlKOUxBb0pDWHNpYVdRaU9qUXNJQ0prWVhSbElqb2lNVEF2TVRFdk1qQXhPU0lzSUNKa1pYTmpjbWx3ZEdsdmJpSTZJa1pzWVcxbGJtZHZJbjBzQ2drSmV5SnBaQ0k2TlN3Z0ltUmhkR1VpT2lJeU1TOHhNUzh5TURFNUlpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVVHRnlhMmx1WnlKOUxBb0pDWHNpYVdRaU9qWXNJQ0prWVhSbElqb2lNall2TVRFdk1qQXhPU0lzSUNKa1pYTmpjbWx3ZEdsdmJpSTZJbEJoY210cGJtY2lmU3dLQ1FsN0ltbGtJam8zTENBaVpHRjBaU0k2SWpJNEx6RXhMekl3TVRraUxDQWlaR1Z6WTNKcGNIUnBiMjRpT2lKTlpXVjBkWEFnVTNWc1lXMWxjbWxqWVNKOUxBb0pDWHNpYVdRaU9qZ3NJQ0prWVhSbElqb2lNREV2TVRJdk1qQXhPU0lzSUNKa1pYTmpjbWx3ZEdsdmJpSTZJbEoxYm01cGJtY2dJbjBzQ2drSmV5SnBaQ0k2T1N3Z0ltUmhkR1VpT2lJd05pOHhNaTh5TURFNUlpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVVHbDZlbUZ5YVdFZ1kyOXRJSEJsYzNOdllXd2daR0VnWTJWa1lXVWlmU3dLQ1FsN0ltbGtJam94TUN3Z0ltUmhkR1VpT2lJeE1TOHhNaTh5TURFNUlpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVEyVmtZV1VnVEhWdVkyZ2dLR0poYWNPamJ5a2lmU3dLQ1FsN0ltbGtJam94TVN3Z0ltUmhkR1VpT2lJeE1pOHhNaTh5TURFNUlpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVVHRnlhMmx1WnlKOUxBb0pDWHNpYVdRaU9qRXlMQ0FpWkdGMFpTSTZJakV6THpFeUx6SXdNVGtpTENBaVpHVnpZM0pwY0hScGIyNGlPaUpHWldWa1ltRmpheUJNZFc1amFDaGtaWE53WldScFpHRS9LU0F2SUcxNUlHZHlZVzFoSW4wc0Nna0pleUpwWkNJNk1UTXNJQ0prWVhSbElqb2lNakF2TVRJdk1qQXhPU0lzSUNKa1pYTmpjbWx3ZEdsdmJpSTZJbFJoYTJVZ2FXNGdkR2hsSUhOeGRXRnlaU0o5TEFvSkNYc2lhV1FpT2pFMExDQWlaR0YwWlNJNklqSXhMekV5THpJd01Ua2lMQ0FpWkdWelkzSnBjSFJwYjI0aU9pSkVZWGtnYjJabUluMHNDZ2tKZXlKcFpDSTZNVFVzSUNKa1lYUmxJam9pTWpNdk1USXZNakF4T1NJc0lDSmtaWE5qY21sd2RHbHZiaUk2SWxOcmVYZGhiR3RsY2lKOUxBb0pDWHNpYVdRaU9qRTJMQ0FpWkdGMFpTSTZJakkyTHpFeUx6SXdNVGtpTENBaVpHVnpZM0pwY0hScGIyNGlPaUpNYjNOMElHbHVJRlpNVkNKOUxBb0pDWHNpYVdRaU9qRTNMQ0FpWkdGMFpTSTZJakkzTHpFeUx6SXdNVGtpTENBaVpHVnpZM0pwY0hScGIyNGlPaUpYWVd4cklHOXVJSFJvWlNCaVpXRmphQ0o5TEFvSkNYc2lhV1FpT2pFNExDQWlaR0YwWlNJNklqTXhMekV5THpJd01Ua2lMQ0FpWkdWelkzSnBjSFJwYjI0aU9pSkpiaUJ6WldGeVkyZ2diMllnZEdobElIQnZkR0YwYnlKOUxBb0pDWHNpYVdRaU9qRTVMQ0FpWkdGMFpTSTZJakF5THpBeEx6SXdNakFpTENBaVpHVnpZM0pwY0hScGIyNGlPaUpPWlhjZ1VHRnlhMmx1WnlKOUxBb0pDWHNpYVdRaU9qSXdMQ0FpWkdGMFpTSTZJakEwTHpBeEx6SXdNakFpTENBaVpHVnpZM0pwY0hScGIyNGlPaUpNWVhwNUlHUmhlU0o5TEFvSkNYc2lhV1FpT2pJeExDQWlaR0YwWlNJNklqRTBMekF4THpJd01qQWlMQ0FpWkdWelkzSnBjSFJwYjI0aU9pSk9aWGNnVUdGeWEybHVaeUo5TEFvSkNYc2lhV1FpT2pJeUxDQWlaR0YwWlNJNklqRTJMekF4THpJd01qQWlMQ0FpWkdWelkzSnBjSFJwYjI0aU9pSlVhV3AxWTJFbmN5QkhlVzBpZlN3S0NRbDdJbWxrSWpveU15d2dJbVJoZEdVaU9pSXlNeTh3TVM4eU1ESXdJaXdnSW1SbGMyTnlhWEIwYVc5dUlqb2lUbVYzSUZCaGNtdHBibWNpZlN3S0NRbDdJbWxrSWpveU5Dd2dJbVJoZEdVaU9pSXlOQzh3TVM4eU1ESXdJaXdnSW1SbGMyTnlhWEIwYVc5dUlqb2lWMmhsY21VZ2FYTWdkR2hsSUdKaFlua2lmU3dLQ1FsN0ltbGtJam95TlN3Z0ltUmhkR1VpT2lJek1DOHdNUzh5TURJd0lpd2dJbVJsYzJOeWFYQjBhVzl1SWpvaVVtRnBibWx1WnlCTVlXdGxJbjBzQ2drSmV5SnBaQ0k2TWpZc0lDSmtZWFJsSWpvaU1EWXZNREl2TWpBeU1DSXNJQ0prWlhOamNtbHdkR2x2YmlJNklrNWxkeUJRWVhKcmFXNW5JbjBLQ1YwS2ZRPT0=
+
+
+Envio de email assincrono no processo 
+- Implementação do fluxo de trabalho para as funcionalidades: Atestado, Dependentes, Atualização Cadastral, Licenças e Requerimento Pessoal
+- Associação de Funcionalidade com Unidade para definção de quem pode aprovar solicitações no fluxo de trabalho
+- Criação de Formulários/Requerimentos customizáveis
+- Levantamento dos erros da aplicação no log de produção
+
+
+Nome completo, Matrícula, 
+Cargo, Função
+unidade Lotação, email pessoal
+Telefone de contato
+Endereço residencial e telefone pessoal / Contato emergencia, Telefone de Emergencia
+
+Data de envio.
+
+
+Solicitação de a mulher
+02 - Termo de ciência de adiantamento salarial
+
+
+
+Evolutiva - Reunião de modelagem da funcionalidade
+Evolutiva - Reunião de modelagem da funcionalidade
+Corretiva - Correção no menu administrativo para não ficar fora da tela
+
+
+Informações adicionais:
+
+
+Requer:
+Licença-adoção junto ao INSS a partir de DT_LICENCA_ADOCAO, seguida de licença-adoção prorrogação, totalizando 135 dias corridos.
+DECLARO AINDA, QUE DURANTE O GOZO DA LICENÇA-ADOÇÃO CAIXA NÃO EXERCEREI QUALQUER ATIVIDADE REMUNERADA, SALVO NOS CASOS DE CONTRATO DE TRABALHO SIMULTÂNEO FIRMADO PREVIAMENTE, E QUE MEU FILHO NÃO SERÁ MANTIDO EM CRECHE OU QUALQUER OUTRA ORGANIZAÇÃO SIMILAR, DE ACORDO COM ESTE NORMATIVO.
+
+NORMAS DE INFORMAÇÕES DO REQUERIMENTO PESSOAL ASSINADO PELO FUNCIONARIO UMA VEZ DENTRO DAS NORMAS:
+NORMA 01
+NORMA 02
+NORMA 03
+NORMA 04
+
+Responsabilidades do Empregado
+1.       Habilitar o benefício junto ao INSS e informar a data da perícia à GIPES;
+2.       Comparecer à Perícia agendada junto ao INSS;
+3.       Regularizar eventuais pendências junto ao INSS, se necessário;
+4.       Encaminhar o Comunicado de Decisão e a Carta de Concessão do Benefício emitida pelo INSS à GIPES e CEPES, em até 24 horas a partir da disponibilização por aquele Órgão, via e-mail com confirmação de recebimento;
+5.       Encaminhar, à CEPES, o extrato de pagamento de benefício pelo INSS, para que os valores de auxílio-doença adiantados pela CAIXA sejam debitados, em folha de pagamento ou conta corrente, bem como viabilizar o pagamento correto da suplementação, que corresponde à diferença entre a Remuneração-Base do empregado e o auxílio-doença pago pelo INSS;
+6.       Encaminhar, à GIPES, eventuais alterações nos agendamentos ou dados cadastrais para contato.
+Responsabilidades da CAIXA
+1.       Realizar adiantamento salarial ao empregado não aposentado, afastado por motivo de licença para tratamento de saúde superior a 15 dias, observando sua remuneração-base mensal, por até 3 (três) meses consecutivos, nos termos do RH115;
+2.       Suspender o adiantamento salarial em eventual não comparecimento do empregado à Perícia agendada junto ao INSS, mesmo que justificada, ou após o prazo de 4 meses, caso não receba o extrato de pagamento de benefício pelo INSS;
+2.1   Providenciar débito integral dos valores adiantados, em folha de pagamento ou conta corrente;
+3.       Suspender o adiantamento do auxílio-doença após a recepção do extrato de pagamento de benefício pelo INSS, providenciando o débito em folha de pagamento ou conta corrente dos valores adiantados ao empregado, correspondentes ao auxílio-doença pago pelo INSS;
+3.1   Viabilizar o pagamento da suplementação, que corresponde à diferença entre a Remuneração-Base do empregado e o auxílio-doença pago pelo INSS.
+
+
+
+#######################################################################################################################
+$ Demanda de Manutenção de Sistemas 16084347
+
+Gentileza criar função para permitir o envio de mensagens de forma assíncrona, ou seja, no caso de indisponibilidade do SICPU, 
+o SIGPM deve guardar a mensagem para envio posterior, quando o SICPU ficar disponível novamente. Esta funcionalidade pode ser 
+implementada primeiramente para Atestado Médico e Licenças.
+
+Quanto ao expurgo das mensagens, após a efetiva remessa para os destinatários, incluindo a GEBER05 sempre, o SIGPM pode deletar, 
+não sendo necessário o arquivamento da mensagem.
+
+OK - Análise da demanda e divisão de tarefas
+OK - Criação do serviço assincrono para fazer o processamento temporal das mensagens
+OK - Criação do serviço de consulta que vai identificar as mensagens que tem que ser enviadas
+OK - Criação do serviço de processamento e envio das mensagens via SICPU
+OK - Criação das classes de acesso aos dados das mensagens
+OK - Criação da tela de exibição da lista de mensagens pendentes de envio
+OK - Criação do serviço de consulta de mensagens pendentes
+OK - Alteração no serviço de Envio de Atestado Médico, para permitir o envio posterior da mensage
+OK - Alteração da tela de consulta Atestado, para mostrar que o envio está pendente
+OK - Alteração da funcionalidade Licenças, para permitir o envio posterior da mensage
+OK - Alteração da tela de consulta de Licenças, para mostrar que o envio está pendente
+
+
+#######################################################################################################################
+$ Demanda de Manutenção de Sistemas 16372768
+
+Mensagem assíncrona para Alteração Cadastral,  e Requerimentos
+
+OK - Análise da demanda e divisão de tarefas
+OK - Alteração do serviço de Alteração Cadastral, para permitir o envio posterior da mensage
+OK - Alteração da tela de consulta de Alteração Cadastral, para mostrar que o envio está pendente
+OK - Criação do serviço de processamento e envio da funcionalidade Alteração Cadastral via SICPU
+OK - Alteração do serviço de Dependentes, para permitir o envio posterior da mensage
+OK - Alteração da tela de consulta de Dependentes, para mostrar que o envio está pendente
+OK - Criação do serviço de processamento e envio da funcionalidade Dependentes via SICPU
+- Alteração do serviço de Requerimentos, para permitir o envio posterior da mensage
+- Alteração da tela de consulta de Requerimentos, para mostrar que o envio está pendente
+- Criação do serviço de processamento e envio da funcionalidade Requerimentos via SICPU
+
+
+#######################################################################################################################
+
+STE 16236296 - Erro ortografia na emissão do contracheque 
+
+#######################################################################################################################
+
+
+C891968
+46930973068
+Senha: 135790
+
+TAREFAS DE OUTRA SPRINT
+16338710
+16344289
+
+
+
+Sprint 1 - 01/10/2020 - 30/10/2020
+SIGPM - Novos formulários digitais e melhorias no Requerimento Pessoal Digital
+
+Sprint 2 - 03/11/2020 - 30/11/2020
+Sprint 3 - 01/12/2020 - 19/12/2020
+Sprint 4 - 21/12/2020 - 19/01/2021
+
+
+STE 16467725 - Pr04 - Correção no email do Requerimento Pessoal
+DMS 16496682 - Pr01 - Correção do Comprovante de Rendimentos
+
+
+
+#######################################################################################################################
+LICENÇA
+
+OK - Remover o texto de obsravação antes do botão, nos casos que não forem atestado
+OK - Incluir texto: "Solicito a GIPES o ofício DUvT/AVT para apresentar ao INSS" no lugar do anexo para o tipo: "ofício DUT/AVT"
+PARTE - Incluir campo observação, também no email
+OK - Trazer histórico de atestados do funcionário
+OK - Retirar Prazo de atendimento
+
+Atestado Médico até 15 dias
+Atestado Médico superior a 15 dias
+Enviar Comprovante de Requerimento de Benefício INSS
+Enviar Comprovante de Remarcação de Perícia do INSS 
+Enviar Comunicado de Decisão
+Enviar Extratos de Pagamentos – HISCRED
+Enviar IFBEN 
+Enviar Termo de Ciência de Adiantamento Salarial
+Solicitar ofício DUT/AVT
+
+#######################################################################################################################
+LICENÇA
+
+- Análise da demanda e divisão de tarefas
+- Remover atestado médico do menu
+- Remover icone de atestado médico da tela principal
+- Incluir cadastro licença médica no menu
+- Incluir consulta minhas licenças médicas no menu
+- Criar tela de cadastro licença médica
+- Criar serviço de cadastro de licença médica
+- Criar tela de consulta de minhas licenças médicas ???
+- 
+
+{id:1, nome:'Atestado Médico até 15 dias', temArquivo:true},
+{id:2, nome:'Atestado Médico superior a 15 dias', temArquivo:true},
+{id:3, nome:'Enviar Comprovante de Requerimento de Benefício INSS', temArquivo:true},
+{id:4, nome:'Enviar Comprovante de Remarcação de Perícia do INSS ', temArquivo:true},
+{id:5, nome:'Enviar Comunicado de Decisão', temArquivo:true},
+{id:6, nome:'Enviar Extratos de Pagamentos – HISCRED', temArquivo:true},
+{id:7, nome:'Enviar IFBEN', temArquivo:true},
+{id:8, nome:'Enviar Termo de Ciência de Adiantamento Salarial', temArquivo:true},
+{id:9, nome:'Solicitar ofício DUT/AVT', temArquivo:false}
+
+
+
+
+
+DMS - 16283993 - Alterações diversas dez-20
+DMS - 16374246 - Alterações JAN/2021 
+DMS - 16040235 - Aviso de férias - melhoria em visão unidade
+DMS - 16580476 - Ocorrência no envio de atestados pelo app SouCaixa
+Ajuste no ícone do acolhe caixa
+
+
+
+099026 - SIGPM-DES gera PDF, mesmo dando erro na API
+112460 - SIGPM-DES retorna msg "Prezado usuário, ocorreu um erro na geração do comprovante de rendimentos: Não foi encontrado comprovante para a matrícula informada." 
+081003 - Tem que retornar dados de pensão, SIGPM-DES retorna msg "Executing an update/delete query"
+100633 - Tem que retornar dados de RRA (468,59 05/2020), SIGPM-DES retorna msg "Executing an update/delete query" 
+
+
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000068', '405', 'U', CURRENT_TIMESTAMP, NULL);
+
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000023', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000068', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000123', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000280', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000306', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C004187', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C012000', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C101765', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000539', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C000754', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C001041', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C088842', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C062261', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C070135', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C046198', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C061699', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C023890', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C106092', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C140915', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C122529', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C128169', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C064261', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C098124', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C122811', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C060647', '405', 'U', CURRENT_TIMESTAMP, NULL);
+INSERT INTO GPMTB001_FUNCIONARIO_CAIXA(CO_MATRICULA, CO_LOTACAO, CO_AUTORIZACAO, DH_CRIACAO, NU_GPMTB068) VALUES('C056358', '405', 'U', CURRENT_TIMESTAMP, NULL);
+
+
+
+
+
+Alterar o titulo para Aviso de Ferias da Unidade
+
+
+
+
+16467767 - PLVITEC MAR/21 - SIGPM - Pr01 - Serviço Declarações
+16467922 - PLVITEC MAR/21 - SIGPM - Pr03 - Serviço Dependentes - alteração
+
+
+146941
+
+
+17020376
+16992392
+
+16866578
+16937124
+
+CAIXA ECONÔMICA FEDERAL
+
+10.744.073/0001-41
+
+
+- Não salvar mais os dados do relatório de comprovante de rendimento gerado em cache
+- Buscar sempre as informações do comprovante de rendimento no SISRH para a geração do relatório
+
+- Não salvar mais os dados do relatório de contracheque gerado em cache
+- Buscar sempre as informações do contracheque no SISRH para a geração do relatório
+
+- Alterar o relatório de comprovante de rendimento para colocar o nome da empresa de acordo com o que vem no retorno da API do SISRH
+- Alterar serviço de geração do relatório para gerar um o compravantes para mais de uma fonte pagador, quando for o caso.
+- Juntar os comprovantes de rendimentos gerados em um único arquivo PDF
+
+
+
+
+cordova run android
+
+- Calendario de período da campanha 
+- Consulta de campanhas não deve mostrar os excluídos (OK)
+- Não mostrar as campanhas vencidas, nem excluídas na tela de desafio (OK)
+- Nome do desafio 100 (OK)
+- Regulamento aumentar e colcoar textarea (OK)
+
+FiqueBem - Na opção Desafios Caixa deve apresentar a opção “Novos” como padrão.
+Ao clicar em Desafios Caixa, a opção “Novos” deverá ser apresentada inicialmente.
+
+FiqueBem - 
+
+MockLocation
+
+
+https://www.w3schools.com/code/tryit.asp?filename=G0N0ZGN78YXD
+https://www.daterangepicker.com/
+
+https://www.npmjs.com/package/moment
+https://momentjs.com/
+
+https://my-json-server.typicode.com/
+https://jsonplaceholder.typicode.com/ 
+
+https://medium.com/@gotoark/how-to-run-cordova-projects-in-android-studio-8f41bdf52be3
+https://medium.com/@sunilk/ionic-capacitor-vs-apache-cordova-difference-with-example-the-next-future-innovation-of-hybrid-93b1317e08cc
+https://capacitor.ionicframework.com/docs/
+
+https://www.udemy.com/course/curso-completo-flutter-app-android-ios/
+
+
+
+Chá de cavalinha
+Água de alho
+
+
+
+
+
+
+	function validarPeriodoPtBr(periodoPtBr) {
+		if(periodoPtBr) {
+			try {
+				const dates = periodoPtBr.split('-');
+				const dataInicio = convertDatePtBr(dates[0].trim());
+				const dataFim = convertDatePtBr(dates[1].trim())
+
+				if (dataInicio && dataFim) {
+					return [dataInicio, dataFim];
+				} 
+			} catch (e) {
+				console.error(e);
+				return null;
+			}
+		}
+
+		return null;
+	}
+	
+	function convertDatePtBr(dataPtBr) {
+		if(dataPtBr) {
+			try {
+				const data = moment(dataPtBr+' 12', 'DD/MM/YYYY HH');
+				
+				if (!data.isValid()) {
+					throw Error();
+				}
+
+				return new Date(data.format());
+			} catch (err) {
+				console.error(err);
+				return null;
+			}
+		} else {
+			return null;
+		}
+
+	}
+		
